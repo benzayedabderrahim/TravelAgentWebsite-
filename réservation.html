@@ -1,0 +1,92 @@
+﻿<html>
+  <head>
+    <title>Réservation</title>
+    <link rel="stylesheet" href="fich css.css" />
+  </head>
+  <body>
+    <header>
+      <br>
+          <li class="bar"><a href="Accueil.html"> Accueil </a></li>
+          <li class="bar"><a href="Tunisie.html"> Tunisie</a></li>
+          <li class="bar"><a href="l'étranger.html">L'étranger</a></li>
+          <li class="bar"><a href="soirées.html"> Soirèes </a></li>
+          <li class="bar"><a href="promotion.html"> Promotion </a></li>
+          <li class="bar"><a href="contacter.html"> Contacter </a></li>
+        </ul>
+      
+    </header>
+
+    <div class="espacebody">
+      <img class="imglogo" src="images/loctun.jpg" />
+
+      <form>
+        <label for="nom">Nom</label>
+        <input type="text" id="nom" name="Nom" placeholder="Votre Nom !" />
+        <br />
+
+        <label for="prenom">Prénom</label>
+        <input
+          type="text"
+          id="prenom"
+          name="prenom"
+          placeholder="Votre Prénom"
+        />
+        <br />
+        <br />
+        <label for="telphn">Numéro de télephone</label>
+        <input
+          type="tel"
+          id="tlphn"
+          name="Numéro de télephone"
+          placeholder="Votre numéro de télephone !"
+        />
+        <br />
+        <br />
+        <label for="telphn">Numéro de la carte d'identité nationale</label>
+        <input
+          type="cin"
+          id="cin"
+          name="Numéro de la carte d'identité national"
+          placeholder="Votre numéro de la carte d'identité nationale !"
+        />
+        <br />
+        <br />
+        <label for="distination">Votre Distination</label>
+        <select id="distin" name="distination">
+          <option value="sousse">Sousse</option>
+          <option value="djerba">Djerba</option>
+          <option value="tataouine">Tataouine</option>
+          <option value="mahdia">Mahdia</option>
+          <option value="bizerte">Bizerte</option>
+          <option value="beja">Béja</option>
+          <option value="kelibia">Kélibia</option>
+          <option value="sfax">Sfax</option>
+          <option value="tozeur">Tozeur</option>
+        </select>
+        <br />
+        <label for="nombre">Nombre des personnes</label>
+        <select id="nbre" name="Nombre">
+          <option value="sngl">Single (1 personne) - 650dt</option>
+          <option value="cpl">Couple (2 personnes) - 1300dt</option>
+          <option value="fml">
+            Famille (entre 3 et 6 personnes) - 500dt pour un personne
+          </option>
+        </select>
+        <br />
+        <br />
+        <p class="p1">
+          Le prix du voyage comprend : Hébergement en hôtel (5 étoiles). Manger
+          (petit-déjeuner, déjeuner, dîner). Transport lors des visites
+          programmées. Nous mettons également à votre disposition une carte
+          spéciale qui vous permet de bénéficier d'une réduction de 10 % lors de
+          vos achats dans certains magasins spécifiques.
+        </p>
+        <br />
+        <br />
+        <center>
+          <input type="submit" value="Vérifier !" />
+        </center>
+      </form>
+    </div>
+  </body>
+</html>
